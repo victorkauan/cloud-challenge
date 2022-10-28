@@ -1,29 +1,29 @@
 // Sum 2 (two) numbers
-function sum() {
-
+function sum(a, b) {
+    return a+b;
 }
 
 // Subtract 2 (two) numbers
-function subtraction() {
-  
+function subtraction(a, b) {
+    return a-b;
 }
 
 // Divide 2 (two) numbers
-function division() {
-
+function division(a, b) {
+    return a/b;
 }
 
 // Multiplicate 2 (two) numbers
-function multiplication() {
-
+function multiplication(a, b) {
+    return a*b;
 }
 
 // Floor a number
-function floor() {
-
+function floor(n) {
+    return Math.floor(n);
 }
 
 // Ceil a number
-function ceil() {
-
+function ceil(n) {
+    return Math.ceil(n);
 }
